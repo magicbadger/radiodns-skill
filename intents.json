@@ -1,0 +1,15 @@
+{
+  "intents": [
+    {
+      "intent": "ListenTo",
+      "slots": [
+        {
+          "name": "service",
+          "type": "AMAZON.BroadcastChannel"
+        }
+      ]
+    },
+    {
+      "intent": "GetServices"
+    }
+  ]
